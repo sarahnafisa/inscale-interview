@@ -23,6 +23,7 @@ public class Question1Page extends BaseClass{
         PageFactory.initElements(rdriver, this);
     }
 
+	//test
     @FindBy(xpath = "//button[normalize-space()='Bank Manager Login']")
     WebElement bankManagerLogin;
 
